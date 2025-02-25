@@ -10,7 +10,6 @@ export default function Logo() {
             />
             <Text>Meu Logo</Text>
         </View>
-
     )
 }
 
