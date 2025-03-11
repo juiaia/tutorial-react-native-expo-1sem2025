@@ -7,9 +7,9 @@ export default function Header(){
         <View style={styles.container}>
             <Image
                 style={styles.avatar}
-                source={'https://github.com/renancavichi.png'}
+                source={'https://github.com/juiaia.png'}
             />
-            <Text style={styles.nome}>Renan Cavichi</Text>
+            <Text style={styles.nome}>Júlia Rodrigues</Text>
             <Entypo style={styles.menu} name="menu" size={44} color="black" />
         </View>
     )
@@ -19,21 +19,22 @@ const styles = StyleSheet.create({
     container: {
         height: 100,
         width: '100%',
-        backgroundColor: '#EEEEEE',
+        backgroundColor: '#6495ed',
         padding: 16,
         flexDirection: 'row',
         alignItems: 'center',
         gap: 16
     },
     avatar: {
-        width: 70,
-        height: 70,
+        width: 50,
+        height: 50,
         borderRadius: 35
     },
     nome: {
-        fontSize: 26
+        fontSize: 22,
+        fontWeight: '600'
     },
     menu: {
         marginLeft: 'auto'
-    }
+    },
 })

@@ -27,9 +27,13 @@ const styles = StyleSheet.create({
         borderRadius: 20
     },
     message: {
-        backgroundColor: '#f1efe6',
-        borderRadius: 20,
+        backgroundColor: '#b0c4de',
+        borderTopLeftRadius: 20,
+        borderBottomLeftRadius: 20,
+        borderBottomRightRadius: 20,
         width: '70%',
-        padding: 16
+        padding: 16,
+       
+
     }
 })
